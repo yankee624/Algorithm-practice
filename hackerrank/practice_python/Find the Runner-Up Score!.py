@@ -9,3 +9,12 @@ if __name__ == '__main__':
         print(None)
     else:
         print(l[-1-max_n])
+
+#alternative solution(using set)
+    #n = int(input())
+    #arr = map(int, input().split())
+    #s=set(arr)
+    #try:
+    #    print(sorted(s)[-2])
+    #except:
+    #    print(None)
