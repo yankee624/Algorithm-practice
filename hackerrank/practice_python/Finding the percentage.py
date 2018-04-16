@@ -1,3 +1,5 @@
+# dealing with inputs, packing/unpacking with *
+
 if __name__ == '__main__':
     n = int(input())
     student_marks = {}
