@@ -1,7 +1,7 @@
 from typing import *
 
 class Solution:
-    # Stack based: O(n)
+    # Stack&Queue based: O(n)
     def trap(self, height: List[int]) -> int:
         stack = []
         volume = 0
