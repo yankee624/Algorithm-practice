@@ -2,7 +2,9 @@ import collections
 import heapq
 from typing import *
 
+
 class Solution:
+    # Dict + Heap based
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         freqs = collections.defaultdict(int)
         for num in nums:
@@ -15,6 +17,7 @@ class Solution:
             result.append(heapq.heappop(heap)[1])
         return result
 
+    # Counter based
     # def topKFrequent(self, nums: List[int], k: int) -> List[int]:
     #     freqs = collections.Counter(nums)
     #     return [e[0] for e in freqs.most_common(k)]
