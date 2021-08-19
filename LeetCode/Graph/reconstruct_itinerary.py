@@ -45,5 +45,5 @@ class Solution:
 
 
 s = Solution()
-# print(s.findItinerary([["MUC","LHR"],["JFK","MUC"],["SFO","SJC"],["LHR","SFO"]]))
-print(s.findItinerary([["JFK","b"],["b","c"],["b","d"],["d","e"],["e","b"]]))
+print(s.findItinerary([["MUC","LHR"],["JFK","MUC"],["SFO","SJC"],["LHR","SFO"]]))
+# print(s.findItinerary([["JFK","b"],["b","c"],["b","d"],["d","e"],["e","b"]]))
